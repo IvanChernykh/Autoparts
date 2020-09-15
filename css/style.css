@@ -96,13 +96,13 @@ label {
 .thanks_modal_text,
 .callback_form {
   width: 320px;
-  margin: 1% auto;
+  margin: 300px auto;
   background-color: #fff;
   text-align: center;
   padding-top: 42px;
 }
 .thanks_modal_text {
-  margin-top: 1%;
+  margin-top: 300px;
 }
 .close_btn_request,
 .close_btn_thanks,
@@ -754,4 +754,8 @@ header {
   .contacts_phone {
     margin: 8px 0;
   }
+}
+@media (max-height: 500px){
+.quick_request_form, .thanks_modal_text, .thanks_modal_text, .callback_form {
+  margin-top: 100px;  
 }
