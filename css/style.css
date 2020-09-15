@@ -148,7 +148,7 @@ label {
 /*---header---*/
 header {
   background-image: linear-gradient(#000 0px, transparent 80px),
-    url(../img/header-bg.png);
+    url(../img/header-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
