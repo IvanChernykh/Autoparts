@@ -96,13 +96,13 @@ label {
 .thanks_modal_text,
 .callback_form {
   width: 320px;
-  margin: 15% auto;
+  margin: 10% auto;
   background-color: #fff;
   text-align: center;
   padding-top: 42px;
 }
 .thanks_modal_text {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 .close_btn_request,
 .close_btn_thanks,
