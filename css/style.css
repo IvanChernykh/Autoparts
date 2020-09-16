@@ -79,9 +79,7 @@ label {
   font-size: 12px;
   margin-bottom: 20px;
 }
-.quick_request_modal,
-.thanks_modal,
-.callback_modal {
+.quick_request_modal, .thanks_modal, .callback_modal {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
@@ -121,9 +119,7 @@ label {
 .close_btn_callback {
   bottom: 335px;
 }
-.quick_request_name,
-.quick_request_phone,
-.quick_request_mail {
+.quick_request_name, .quick_request_phone, .quick_request_mail {
   padding: 14px;
   width: 220px;
   box-sizing: border-box;
@@ -284,8 +280,7 @@ header {
   resize: none;
   border: none;
 }
-.application_form select,
-.application_form input {
+.application_form select, .application_form input {
   box-sizing: border-box;
   width: 100%;
   height: 40px;
@@ -413,8 +408,7 @@ header {
 .consultation_form .button {
   width: 300px;
 }
-#cosultation_name,
-#cosultation_phone {
+#cosultation_name, #cosultation_phone {
   box-sizing: border-box;
   padding-left: 15px;
   width: 290px;
@@ -495,12 +489,10 @@ header {
   .section_subtitle {
     margin-bottom: 40px;
   }
-  .header_subtitle,
-  .section_title {
+  .header_subtitle, .section_title {
     font-size: 27px;
   }
-  .header_text,
-  .header_opportunities {
+  .header_text, .header_opportunities {
     margin-bottom: 80px;
   }
   header {
@@ -603,9 +595,7 @@ header {
   .section_title {
     font-size: 21px;
   }
-  .reviews_section,
-  .consultation_form_section,
-  .video_section .container {
+  .reviews_section, .consultation_form_section, .video_section .container {
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -632,8 +622,7 @@ header {
   header {
     padding-bottom: 40px;
   }
-  .header_text,
-  .header_top {
+  .header_text, .header_top {
     margin-bottom: 50px;
   }
   .features .container {
@@ -653,8 +642,7 @@ header {
     padding: 20px 0;
   }
 
-  #application_form_button,
-  .application_form_item {
+  #application_form_button, .application_form_item {
     margin-top: 10px;
     width: 240px;
   }
@@ -673,9 +661,7 @@ header {
   .consultation_form {
     padding: 30px 0;
   }
-  #cosultation_name,
-  #cosultation_phone,
-  .consultation_form .button {
+  #cosultation_name, #cosultation_phone, .consultation_form .button {
     width: 250px;
   }
   .consultation_form_item {
@@ -733,8 +719,7 @@ header {
     width: 280px;
     height: 140px;
   }
-  .reviews_block,
-  .reviews_item {
+  .reviews_block, .reviews_item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -752,14 +737,10 @@ header {
   .contacts_phone {
     margin: 8px 0;
   }
-  .quick_request_form,
-  .thanks_modal_text,
-  .callback_form {
+  .quick_request_form, .thanks_modal_text, .callback_form {
     width: 280px;
   }
-  .close_btn_request,
-  .close_btn_thanks,
-  .close_btn_callback {
+  .close_btn_request, .close_btn_thanks, .close_btn_callback {
     font-size: 30px;
     left: 150px;
   }
