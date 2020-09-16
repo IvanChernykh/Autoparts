@@ -752,4 +752,15 @@ header {
   .contacts_phone {
     margin: 8px 0;
   }
+  .quick_request_form,
+  .thanks_modal_text,
+  .callback_form {
+    width: 280px;
+  }
+  .close_btn_request,
+  .close_btn_thanks,
+  .close_btn_callback {
+    font-size: 30px;
+    left: 150px;
+  }
 }
