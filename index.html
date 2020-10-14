@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css\style.css" />
+    <script src="js\main.js" defer></script>
+    <title>AutoParts</title>
+  </head>
+  <body>
+    <!-- modals -->
+    <!-- request -->
+    <div class="quick_request_modal">
+      <div class="quick_request_form">
+        <h3 class="modal_title">Быстрая заявка</h3>
+        <p class="modal_subtitle">Оставьте заявку и мы Вам перезвоним!</p>
+        <form action="#">
+          <input
+            type="text"
+            placeholder="Ваше имя"
+            class="quick_request_name"
+          />
+          <input
+            type="text"
+            placeholder="Ваш телефон"
+            class="quick_request_phone"
+          />
+          <button type="submit" class="button modal_button">
+            Отправить заявку
+          </button>
+        </form>
+        <span class="close_btn close_btn_request">&times</span>
+      </div>
+    </div>
+    <!-- callback -->
+    <div class="callback_modal">
+      <div class="callback_form">
+        <h3 class="modal_title">Заказ обратного звонка</h3>
+        <p class="modal_subtitle">Оставьте заявку и мы Вам перезвоним!</p>
+        <form action="#">
+          <input
+            type="text"
+            placeholder="Ваше имя"
+            class="quick_request_name"
+          />
+          <input
+            type="text"
+            placeholder="Ваш телефон"
+            class="quick_request_phone"
+          />
+          <input
+            type="text"
+            placeholder="Ваша почта"
+            class="quick_request_mail"
+          />
+          <button type="submit" class="button modal_button">
+            Отправить заявку
+          </button>
+        </form>
+        <span class="close_btn close_btn_callback">&times</span>
+      </div>
+    </div>
+    <!-- thanks -->
+    <div class="thanks_modal">
+      <div class="thanks_modal_text">
+        <h3 class="modal_title">Спасибо за вашу заявку!</h3>
+        <p class="modal_subtitle">Мы свяжемся с Вами в ближайшее время!</p>
+        <span class="close_btn close_btn_thanks">&times</span>
+      </div>
+    </div>
+    <!-- ---header--- -->
+    <header>
+      <div class="container">
+        <!-- header_top -->
+        <div class="header_top">
+          <div class="logo">
+            <span>autoparts</span>
+          </div>
+          <div class="header_top_number">
+            <p>8 800 555 35 35</p>
+            <a href="#" class="callback_btn">Заказать обратный звонок</a>
+          </div>
+        </div>
+        <!-- header_text -->
+        <div class="header_text">
+          <h1 class="header_title">Продажа кузовных запчастей</h1>
+          <p class="header_subtitle">с заводской покраской без пробега</p>
+        </div>
+        <!-- header_opportunities -->
+        <div class="header_opportunities">
+          <div class="header_item">
+            <div class="header_item_img">
+              <img src="img\header-icon-1.png" alt="Доставка" />
+            </div>
+            <p>Доставка по от 3-х дней</p>
+          </div>
+          <div class="header_item">
+            <div class="header_item_img">
+              <img src="img\header-icon-2.png" alt="цена/качевство" />
+            </div>
+            <p>Новое состояние по цене б/у</p>
+          </div>
+          <div class="header_item">
+            <div class="header_item_img">
+              <img src="img\header-icon-3.png" alt="детали" />
+            </div>
+            <p>Наличие более 500 различных деталей</p>
+          </div>
+        </div>
+        <!-- header_buttons -->
+        <div class="header_buttons">
+          <div class="header_btn_block">
+            <a class="button header_button quick_request_button"
+              >Быстрая заявка</a
+            >
+            <p>Мы перезвоним Вам для уточнения деталей.</p>
+          </div>
+          <div class="header_btn_block">
+            <a class="button header_button" href="#detailed_application_form"
+              >Подробная заявка</a
+            >
+            <p>Заполните подробную заявку онлайн!</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- features -->
+      <div class="features">
+        <div class="container">
+          <div class="features_block">
+            <div class="features_item">
+              <div class="features_item_img">
+                <img
+                  src="img\feature-icon-1.png"
+                  alt="Более 1000 наименований"
+                />
+              </div>
+              <h3>Более 1000 наименований</h3>
+              <p>
+                Возможность заказа и подбора более чем по 2000 наименований
+                деталей
+              </p>
+            </div>
+            <div class="features_item">
+              <div class="features_item_img">
+                <img src="img\feature-icon-2.png" alt="Доставка" />
+              </div>
+              <h3>Доставка в любой регион</h3>
+              <p>
+                Мы работаем с любой транспортной компанией и осуществляем
+                доставку в любой регион
+              </p>
+            </div>
+            <div class="features_item">
+              <div class="features_item_img">
+                <img
+                  src="img\feature-icon-3.png"
+                  alt="Новое состояние деталей"
+                />
+              </div>
+              <h3>Новое состояние деталей</h3>
+              <p>Наши детали не были в употреблении и имеют состояние новых</p>
+            </div>
+            <div class="features_item">
+              <div class="features_item_img">
+                <img src="img\feature-icon-4.png" alt="Европейское качество" />
+              </div>
+              <h3>Европейское качество</h3>
+              <p>
+                Все наши детали привезены из Европы, что гарантирует отличное
+                качество.
+              </p>
+            </div>
+            <div class="features_item">
+              <div class="features_item_img">
+                <img src="img\feature-icon-5.png" alt="Договор" />
+              </div>
+              <h3>Работаем по договору</h3>
+              <p>
+                Все, что мы делаем - официально. Мы заключаем договор
+                купли-продажи и предоставляем все необходимые документы
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- application form -->
+      <div class="application_form_section" id="detailed_application_form">
+        <div class="container">
+          <h2 class="section_title">Подробная заявка</h2>
+          <p class="section_subtitle">
+            Заполните форму и получите максимально точную цену!
+          </p>
+          <form action="" class="application_form">
+            <div class="application_form_item">
+              <label for="car_brand">Марка:</label>
+              <select name="" id="car_brand">
+                <option value="">Выберите марку</option>
+                <option value="Audi">Audi</option>
+                <option value="BMW">BMW</option>
+                <option value="Bentley">Bentley</option>
+                <option value="Honda">Honda</option>
+                <option value="Jaguar">Jaguar</option>
+                <option value="Jeep">Jeep</option>
+                <option value="Land Rover">Land Rover</option>
+                <option value="Mazda">Mazda</option>
+                <option value="Mercedes-Benz">Mercedes-Benz</option>
+                <option value="Porsche">Porsche</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Volvo">Volvo</option>
+              </select>
+            </div>
+            <div class="application_form_item" id="application_text">
+              <label for="application_form_text">Необходимые детали:</label>
+              <textarea id="application_form_text">Введите</textarea>
+            </div>
+            <div class="application_form_item">
+              <label for="application_form_phone">Ваш телефон:</label>
+              <input type="tel" id="application_form_phone" />
+            </div>
+            <div class="application_form_item">
+              <label for="car_model">Модель:</label>
+              <select name="" id="car_model">
+                <option value="">Выберите модель</option>
+                <option value="Audi">test1</option>
+                <option value="BMW">test2</option>
+              </select>
+            </div>
+            <div class="application_form_item">
+              <label for="application_form_email">Ваш e-mail:</label>
+              <input type="email" id="application_form_email" />
+            </div>
+            <div class="application_form_item">
+              <label for="car_year">Год выпуска:</label>
+              <select name="" id="car_year">
+                <option value="">Выберите год</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
+                <option value="2012">2012</option>
+                <option value="2011">2011</option>
+                <option value="2010">2010</option>
+                <option value="2009">2009</option>
+              </select>
+            </div>
+            <div class="application_form_item">
+              <label for="application_form_name">Ваше имя:</label>
+              <input type="text" id="application_form_name" />
+            </div>
+            <button class="button" type="submit" id="application_form_button">
+              Узнать цену
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- car brands -->
+      <div class="car_brands">
+        <div class="container">
+          <h2 class="section_title">Имеем в наличии детали на авто:</h2>
+          <div class="car_brands_block">
+            <div class="brands_line1">
+              <img src="img\audi-logo.png" alt="Audi" />
+              <img src="img\Mercedes-Benz-logo.png" alt="Mercedes-Benz" />
+              <img src="img\bmw-logo.png" alt="BMW" />
+              <img src="img\Volkswagen-Logo.png" alt="Volkswagen" />
+              <img src="img\jaguar-logo.png" alt="Jaguar" />
+            </div>
+            <div class="brands_lines2-3">
+              <img src="img\Volvo_Logo.png" alt="Volvo" />
+              <img src="img\mini_logo.png" alt="Mini" />
+              <img src="img\land-rover-logo.png" alt="Land Rover" />
+              <img src="img\honda.png" alt="Honda" />
+              <img src="img\logo-jeep.png" alt="Jeep" />
+              <img src="img\bentley-logo.png" alt="Bentley" />
+              <img src="img\Porsche_logo.png" alt="Porsche" />
+              <img src="img\Mazda_Logo.png" alt="Mazda" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- video_section -->
+      <div class="video_section">
+        <div class="container">
+          <h2 class="section_title">
+            Вы можете посмотреть что происходит у нас!
+          </h2>
+          <div class="video_block">
+            <iframe
+              src="https://www.youtube.com/embed/ftuEgPnlsYQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- reviews -->
+      <div class="reviews_section">
+        <div class="container">
+          <h2 class="section_title">Клиенты о нас</h2>
+          <div class="reviews_block">
+            <div class="reviews_item">
+              <div class="review_img">
+                <img src="img\reveiew_img.png" alt="avatar" />
+              </div>
+              <div class="review_text">
+                <span class="review_subtitle">Диогеен Синопский </span>
+                <h4 class="review_title">Не могу найти фару для авто</h4>
+                <p class="review_text">
+                  “ Автопартс в широком ассортименте по ценам от известного
+                  дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется
+                  заслуженным уважением среди покупателей, благодаря высокому
+                  сервису, скидкам, отличному качеству продукции.
+                </p>
+              </div>
+            </div>
+            <div class="reviews_item">
+              <div class="review_img">
+                <img src="img\reveiew_img.png" alt="avatar" />
+              </div>
+              <div class="review_text">
+                <span class="review_subtitle">Пифагор Самосский </span>
+                <h4 class="review_title">Не могу найти фару для авто</h4>
+                <p class="review_description">
+                  “ Автопартс в широком ассортименте по ценам от известного
+                  дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется
+                  заслуженным уважением среди покупателей, благодаря высокому
+                  сервису, скидкам, отличному качеству продукции.
+                </p>
+              </div>
+            </div>
+            <div class="reviews_item">
+              <div class="review_img">
+                <img src="img\reveiew_img.png" alt="avatar" />
+              </div>
+              <div class="review_text">
+                <span class="review_subtitle">Зенон Элейский </span>
+                <h4 class="review_title">Не могу найти фару для авто</h4>
+                <p class="review_text">
+                  “ Автопартс в широком ассортименте по ценам от известного
+                  дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется
+                  заслуженным уважением среди покупателей, благодаря высокому
+                  сервису, скидкам, отличному качеству продукции.
+                </p>
+              </div>
+            </div>
+            <div class="reviews_item">
+              <div class="review_img">
+                <img src="img\reveiew_img.png" alt="avatar" />
+              </div>
+              <div class="review_text">
+                <span class="review_subtitle">Александр Македонский </span>
+                <h4 class="review_title">Не могу найти фару для авто</h4>
+                <p class="review_text">
+                  “ Автопартс в широком ассортименте по ценам от известного
+                  дистрибьютора автозапчастей. ООО "РАДИАТОР" пользуется
+                  заслуженным уважением среди покупателей, благодаря высокому
+                  сервису, скидкам, отличному качеству продукции.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- consultation form -->
+      <div class="consultation_form_section">
+        <div class="container">
+          <h2 class="section_title">Нужна консультация?</h2>
+          <p class="section_subtitle">
+            Заполните форму и получите максимально точную цену!
+          </p>
+          <form action="#" class="consultation_form">
+            <div class="consultation_form_item">
+              <label for="cosultation_name">Ваше имя:</label>
+              <input type="text" id="cosultation_name" />
+            </div>
+            <div class="consultation_form_item">
+              <label for="cosultation_phone">Ваш телефон:</label>
+              <input type="text" id="cosultation_phone" />
+            </div>
+            <button class="button modal_button" type="submit">
+              Заказать консультацию
+            </button>
+          </form>
+        </div>
+      </div>
+      <!-- contacts -->
+      <div class="contacts_section">
+        <div class="contacts_container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.471911962809!2d27.413568115886576!3d53.88781574171557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbdb1e1dc53d9b%3A0x844e7eb5c49ef211!2z0YPQu9C40YbQsCDQn9C40LzQtdC90LAg0J_QsNC90YfQtdC90LrQviwg0JzQuNC90YHQuiwg0JHQtdC70LDRgNGD0YHRjA!5e0!3m2!1sru!2sua!4v1598553630058!5m2!1sru!2sua"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+          <div class="contacts_block">
+            <h3 class="contacts_title">Контакты</h3>
+            <p>г. Минск, ул. Пимена Панченко, 8, к.1</p>
+            <p class="contacts_phone">8 800 555 35 35</p>
+            <a href="" class="contacts_link">info@siteautoparts.com</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="logo">
+            <span>autoparts</span>
+          </div>
+          <div class="header_top_number">
+            <p>8 800 555 35 35</p>
+            <a href="#" class="callback_btn">Заказать обратный звонок</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
